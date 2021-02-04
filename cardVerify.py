@@ -1,8 +1,3 @@
-"""
-Python script to check the validity of credit card numbers
-Author : PythonCircle.Com
-Read more : https://www.pythoncircle.com/post/485/python-script-8-validating-credit-card-number-luhns-algorithm/
-"""
 
 import sys
 import re
@@ -20,32 +15,7 @@ def usage():
 
     """
     print(msg)
-'''
 
-def get_cc_number():
-    if len(sys.argv) < 4:
-        usage()
-        sys.exit(1)
-
-    return sys.argv[1]
-
-def get_cc_name():
-    if len(sys.argv) < 4:
-        usage()
-        sys.exit(1)
-
-
-    return sys.argv[2]
-
-def get_cc_cvv():
-    if len(sys.argv) < 4:
-        usage()
-        sys.exit(1)
-
-
-    return sys.argv[3]
-
-'''
 
 def validateName(name):
     exp = r'^[a-zA-Z ]+$'
